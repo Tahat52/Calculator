@@ -1,0 +1,415 @@
+body {
+     display: flex;
+     justify-content: center;
+     height: 100vh;
+     align-items: center;
+     
+}
+.container {
+     border: none;
+     width: 360px;
+     display: flex;
+     height: 600px;
+     align-items: center;
+     flex-wrap: wrap;
+     border-radius: 25px 25px 25px 25px;
+     background-color: black;
+
+}
+
+.block {
+
+     width: 100%;
+     height: 150px;
+     color: white;
+     font-size: 100px;
+     display: flex;
+     justify-content: flex-end;
+     align-items: flex-end;
+     padding-right: 20px;
+     overflow: hidden;
+}
+
+.AC {
+     border-radius: 50px;
+     padding: 15px 25px 15px;
+     font-size: 25px;
+     margin-top: 3px;
+     background: linear-gradient(to bottom, #383838, #1c1c1c);
+     color: white;
+     border: none;
+     transition: 0.5s;
+}
+
+.AC:hover {
+     background: linear-gradient(120deg, #ffffff, #f8f8f8, #ececec);
+     color: black;
+     box-shadow: 0px 7px 5px white;
+     transform: translateY(-1px);
+
+}
+
+.NEG {
+     border-radius: 50px;
+     padding: 15px 25px 15px;
+     font-size: 25px;
+     margin-top: 3px;
+     background: linear-gradient(to bottom, #383838, #1c1c1c);
+     color: white;
+     border: none;
+     transition: 0.5s;
+}
+
+
+.NEG:hover {
+     background: linear-gradient(120deg, #ffffff, #f8f8f8, #ececec);
+     color: black;
+     box-shadow: 0px 7px 5px white;
+     transform: translateY(-1px);
+
+}
+
+
+
+.percentage {
+     border-radius: 50px;
+     padding: 15px 25px 15px;
+     font-size: 25px;
+     margin-top: 3px;
+     background: linear-gradient(to bottom, #383838, #1c1c1c);
+     color: white;
+     border: none;
+     transition: 0.5s;
+}
+
+.percentage:hover {
+     background: linear-gradient(120deg, #ffffff, #f8f8f8, #ececec);
+     color: black;
+     box-shadow: 0px 7px 5px white;
+     transform: translateY(-1px);
+
+}
+
+.division {
+     border-radius: 50px;
+     padding: 15px 25px 15px;
+     font-size: 25px;
+     margin-top: 3px;
+     background-color: #ff9f1c;
+     color: white;
+     border: none;
+     transition: 0.5s;
+}
+
+.division:hover {
+     background-color: #f48c06;
+     color: black;
+     box-shadow: 0px 7px 5px #faa307;
+     transform: translateY(-2px);
+}
+
+.seven {
+     border-radius: 50px;
+     padding: 15px 25px 15px;
+     font-size: 25px;
+     margin-top: 3px;
+     background: linear-gradient(to bottom, #383838, #1c1c1c);
+     color: white;
+     border: none;
+     transition: 0.5s;
+}
+
+.seven:hover {
+     background: linear-gradient(120deg, #ffffff, #f8f8f8, #ececec);
+     color: black;
+     box-shadow: 0px 7px 5px white;
+     transform: translateY(-1px);
+
+}
+
+.eight {
+     border-radius: 50px;
+     padding: 15px 25px 15px;
+     font-size: 25px;
+     margin-top: 3px;
+     background: linear-gradient(to bottom, #383838, #1c1c1c);
+     color: white;
+     border: none;
+     transition: 0.5s;
+}
+
+.eight:hover {
+     background: linear-gradient(120deg, #ffffff, #f8f8f8, #ececec);
+     color: black;
+     box-shadow: 0px 7px 5px white;
+     transform: translateY(-1px);
+
+}
+
+.nine {
+     border-radius: 50px;
+     padding: 15px 25px 15px;
+     font-size: 25px;
+     margin-top: 3px;
+     background: linear-gradient(to bottom, #383838, #1c1c1c);
+     color: white;
+     border: none;
+     transition: 0.5s;
+}
+
+.nine:hover {
+     background: linear-gradient(120deg, #ffffff, #f8f8f8, #ececec);
+     color: black;
+     box-shadow: 0px 7px 5px white;
+     transform: translateY(-1px);
+
+}
+
+.multi {
+     border-radius: 50px;
+     padding: 15px 25px 15px;
+     font-size: 25px;
+     margin-top: 3px;
+     background-color: #ff9f1c;
+     color: white;
+     border: none;
+     transition: 0.5s;
+}
+
+.multi:hover {
+     background-color: #f48c06;
+     color: black;
+     box-shadow: 0px 7px 5px #faa307;
+     transform: translateY(-2px);
+}
+
+.four {
+     border-radius: 50px;
+     padding: 15px 25px 15px;
+     font-size: 25px;
+     margin-top: 3px;
+     background: linear-gradient(to bottom, #383838, #1c1c1c);
+     color: white;
+     border: none;
+     transition: 0.5s;
+}
+
+.four:hover {
+     background: linear-gradient(120deg, #ffffff, #f8f8f8, #ececec);
+     color: black;
+     box-shadow: 0px 7px 5px white;
+     transform: translateY(-1px);
+
+}
+
+.five {
+     border-radius: 50px;
+     padding: 15px 25px 15px;
+     font-size: 25px;
+     margin-top: 3px;
+     background: linear-gradient(to bottom, #383838, #1c1c1c);
+     color: white;
+     border: none;
+     transition: 0.5s;
+}
+
+.five:hover {
+     background: linear-gradient(120deg, #ffffff, #f8f8f8, #ececec);
+     color: black;
+     box-shadow: 0px 7px 5px white;
+     transform: translateY(-1px);
+
+}
+
+.six {
+     border-radius: 50px;
+     padding: 15px 25px 15px;
+     font-size: 25px;
+     margin-top: 3px;
+     background: linear-gradient(to bottom, #383838, #1c1c1c);
+     color: white;
+     border: none;
+     transition: 0.5s;
+}
+
+.six:hover {
+     background: linear-gradient(120deg, #ffffff, #f8f8f8, #ececec);
+     color: black;
+     box-shadow: 0px 7px 5px white;
+     transform: translateY(-1px);
+
+}
+
+.negative {
+     border-radius: 50px;
+     padding: 15px 25px 15px;
+     font-size: 25px;
+     margin-top: 3px;
+     background-color: #ff9f1c;
+     color: white;
+     border: none;
+     transition: 0.5s;
+}
+
+.negative:hover {
+     background-color: #f48c06;
+     color: black;
+     box-shadow: 0px 7px 5px #faa307;
+     transform: translateY(-2px);
+}
+
+.one {
+     border-radius: 50px;
+     padding: 15px 25px 15px;
+     font-size: 25px;
+     margin-top: 3px;
+     background: linear-gradient(to bottom, #383838, #1c1c1c);
+     color: white;
+     border: none;
+     transition: 0.5s;
+}
+
+.one:hover {
+     background: linear-gradient(120deg, #ffffff, #f8f8f8, #ececec);
+     color: black;
+     box-shadow: 0px 7px 5px white;
+     transform: translateY(-1px);
+
+}
+
+.two {
+     border-radius: 50px;
+     padding: 15px 25px 15px;
+     font-size: 25px;
+     margin-top: 3px;
+     background: linear-gradient(to bottom, #383838, #1c1c1c);
+     color: white;
+     border: none;
+     transition: 0.5s;
+}
+
+.two:hover {
+     background: linear-gradient(120deg, #ffffff, #f8f8f8, #ececec);
+     color: black;
+     box-shadow: 0px 7px 5px white;
+     transform: translateY(-1px);
+
+}
+
+.three {
+     border-radius: 50px;
+     padding: 15px 25px 15px;
+     font-size: 25px;
+     margin-top: 3px;
+     background: linear-gradient(to bottom, #383838, #1c1c1c);
+     color: white;
+     border: none;
+     transition: 0.5s;
+}
+
+.three:hover {
+     background: linear-gradient(120deg, #ffffff, #f8f8f8, #ececec);
+     color: black;
+     box-shadow: 0px 7px 5px white;
+     transform: translateY(-1px);
+
+}
+
+.plus {
+     border-radius: 50px;
+     padding: 15px 25px 15px;
+     font-size: 25px;
+     margin-top: 3px;
+     background-color: #ff9f1c;
+     color: white;
+     border: none;
+     transition: 0.5s;
+}
+
+.plus:hover {
+     background-color: #f48c06;
+     color: black;
+     box-shadow: 0px 7px 5px #faa307;
+     transform: translateY(-2px);
+}
+
+.q {
+     width: 100%;
+     justify-content: space-around;
+     display: flex;
+     transform: translateY(5px);
+}
+
+.c {
+     border-radius: 30px 30px 30px 30px;
+     padding: 15px 130px 15px 15px;
+     font-size: 25px;
+     margin-top: 3px;
+     background: linear-gradient(to bottom, #383838, #1c1c1c);
+     border: none;
+     color: white;
+     margin-right: 5px;
+     margin-left: 15px;
+     transition: 0.5s;
+}
+
+.d {
+     width: 100%;
+
+     display: flex;
+
+}
+
+.z {
+     border-radius: 50px;
+     padding: 15px 25px 15px;
+     font-size: 25px;
+     margin-top: 3px;
+     background: linear-gradient(to bottom, #383838, #1c1c1c);
+     color: white;
+     border: none;
+     margin-left: 20px;
+     transition: 0.5s;
+}
+
+.y {
+     border-radius: 50px;
+     padding: 15px 25px 15px;
+     font-size: 25px;
+     margin-top: 3px;
+     background: #ff9f1c;
+     color: white;
+     border: none;
+     margin-left: 25px;
+     transition: 0.5s;
+}
+
+.z:hover {
+     background: linear-gradient(120deg, #ffffff, #f8f8f8, #ececec);
+     color: black;
+     box-shadow: 0px 7px 5px white;
+     transform: translateY(-1px);
+}
+
+.c:hover {
+     background: linear-gradient(120deg, #ffffff, #f8f8f8, #ececec);
+     color: black;
+     box-shadow: 0px 7px 5px white;
+     transform: translateY(-1px);
+}
+
+
+.y:hover {
+     background-color: #f48c06;
+     color: black;
+     box-shadow: 0px 7px 5px #faa307;
+     transform: translateY(-2px);
+}
+
+
+.w:hover {
+     background-color: #f48c06;
+     color: black;
+     box-shadow: 0px 7px 5px #faa307;
+     transform: translateY(-2px);
+}
